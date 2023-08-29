@@ -1,0 +1,89 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background-color: #ffffff;
+}
+
+
+.absolute-image {
+    position: absolute;
+    bottom: 0;
+    width: 100px; /* Adjust the width as needed */
+    z-index: 1; /* To control stacking order */
+}
+
+.absolute-left {
+    left: 0;
+}
+
+.absolute-right {
+    right: 0;
+}
+
+.dashboard-image {
+    max-width: 100%; /* Ensure the image fits within its container */
+}
+
+
+.feature-container {
+    background-size: cover;
+    background-position: center;
+    padding: 200px 20px; /* Adjust padding as needed */
+    position: relative;
+}
+
+.step-link {
+    color: blue;
+}
+
+.feature-details h3 {
+    margin-top: 15px;
+}
+
+.image-stack-group{
+    display: flex;
+}
+.image-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Adjust gap between images */
+}
+
+.image-stack img {
+    width: 100px; /* Make images take up the full width of the column */
+    height: auto;
+}
+
+.solutions-section {
+    background-color: #ffffff;
+}
+
+.solutions-section h2 {
+    margin-top: 0; /* Remove default margin */
+}
+#time-saving-section {
+    background-color: #01B694;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  
+  
+.learn-more_button {
+background-color: #ffffff;
+color: green;
+padding: 10px 20px;
+border-radius: 5px;
+text-decoration: none;
+}
+
+.footer{
+    background-color: #014D3F;
+}
+  
+
+
+/* Add more custom styles as needed */
