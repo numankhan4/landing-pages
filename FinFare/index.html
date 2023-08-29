@@ -6,7 +6,7 @@
     <title>Landing Page</title>
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="./css/bootstrap.min.css" rel="stylesheet" >
     <!-- Google Fonts - Poppins and Roboto -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,600|Roboto:400,400i,700">
 
@@ -16,30 +16,35 @@
 <body>
     <!-- Header Section -->
     <header class="header">
-        <div class="container d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4">
-            <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
-                <img src="./assets/images/Logo.svg" alt="Logo" class="header-logo">
-            </a>
-
-            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-                <li><a href="#" class="nav-link px-3 link-secondary">Features</a></li>
-                <li><a href="#" class="nav-link px-3 link-dark">Pricing</a></li>
-                <li><a href="#" class="nav-link px-3 link-dark">Rewards</a></li>
-                <li><a href="#" class="nav-link px-3 link-dark">Testimonials</a></li>
-            </ul>
-
-            <div class="col-md-3 text-end">
-                <button type="button" class="btn btn-primary">Request Early Access</button>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container   d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4">
+                <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+                    <img src="./assets/images/Logo.svg" alt="Logo" class="header-logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-md-between" id="navbarNav">
+                    <ul class="navbar-nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                        <li><a href="#" class="nav-link px-3 link-secondary">Features</a></li>
+                        <li><a href="#" class="nav-link px-3 link-dark">Pricing</a></li>
+                        <li><a href="#" class="nav-link px-3 link-dark">Rewards</a></li>
+                        <li><a href="#" class="nav-link px-3 link-dark">Testimonials</a></li>
+                    </ul>
+                    <div class="col-md-3 text-end">
+                        <button type="button" class="btn btn-primary">Request Early Access</button>
+                    </div>
+                </div>
             </div>
-        </div>
+        </nav>
     </header>
 
     <!-- Hero Section -->
     <section class="hero-section">
         <div class="container text-center my-5">
             <!-- Heading and Subheading -->
-            <h2 class="section-heading">Welcome to Our Dashboard</h2>
-            <p class="section-subheading">Explore our powerful tools and features.</p>
+            <h2 class="section-heading">Hello, friendlier finances.</h2>
+            <p class="section-subheading">Goodbye, old school expense reports.</p>
 
             <!-- Center-aligned Dashboard Image -->
             <img src="./assets/images/dashboard-img.jpg" alt="Dashboard" class="dashboard-image img-fluid mt-4">
@@ -55,8 +60,8 @@
         <div class="container">
             <!-- Section Heading and Subheading -->
             <div class="text-center">
-                <h2 class="section-heading">Explore Our Features</h2>
-                <p class="section-subheading">Discover the amazing capabilities of our platform.</p>
+                <h2 class="section-heading">Finfare in 3 easy steps</h2>
+                <p class="section-subheading">Simplify expense management with our user-friendly setup process for optimal results.</p>
             </div>
 
             <!-- Feature Rows -->
@@ -67,9 +72,9 @@
                 <div class="col-md-6 mb-4">
                     <small href="#" class="step-link">Step 1</small>
                     <div class="feature-details">
-                        <h3>Step 1 Heading</h3>
+                        <h3>Create and issue cards with spend limits</h3>
                         <p>Set individual card limits for each employee or use templates for company-wide applications. Custom spend limits allow you to take charge, customize, and issue cards that align with your business financial goals, all at your fingertips.</p>
-                        <a href="#" class="btn btn-primary">Next Step</a>
+                        <button href="#" class="btn btn-primary">Next Step</button>
                     </div>
                 </div>
             </div>
@@ -78,11 +83,11 @@
                     <div class="feature-container" style="background-image: url('./assets/images/dashboard-img.jpg');"></div>
                 </div>
                 <div class="col-md-6 mb-4">
-                    <small href="#" class="step-link">Step 1</small>
+                    <small href="#" class="step-link">Step 2</small>
                     <div class="feature-details">
-                        <h3>Step 1 Heading</h3>
-                        <p>Set individual card limits for each employee or use templates for company-wide applications. Custom spend limits allow you to take charge, customize, and issue cards that align with your business financial goals, all at your fingertips.</p>
-                        <a href="#" class="btn btn-primary">Next Step</a>
+                        <h3>Make purchases with your Finfare card</h3>
+                        <p>Whether you're swiping, tapping, or virtually entering your card information, Finfare charge card adapts to your preferences, offering seamless ways to pay that fit your lifestyle and business needs.</p>
+                        <button href="#" class="btn btn-primary">Next Step</button>
                     </div>
                 </div>
             </div>
@@ -91,11 +96,11 @@
                     <div class="feature-container" style="background-image: url('./assets/images/dashboard-img.jpg');"></div>
                 </div>
                 <div class="col-md-6 mb-4">
-                    <small href="#" class="step-link">Step 1</small>
+                    <small href="#" class="step-link">Step 3</small>
                     <div class="feature-details">
-                        <h3>Step 1 Heading</h3>
-                        <p>Set individual card limits for each employee or use templates for company-wide applications. Custom spend limits allow you to take charge, customize, and issue cards that align with your business financial goals, all at your fingertips.</p>
-                        <a href="#" class="btn btn-primary">Next Step</a>
+                        <h3>Take a picture of your receipt, let Finfare do the rest!</h3>
+                        <p>Wave goodbye to the hassle of manual data entry and hello to a streamlined way of keeping tabs on your spending. Just snap a picture of your receipt using your smartphone, and let our technology do the rest.</p>
+                        <button href="#" class="btn btn-primary">Next Step</button>
                     </div>
                 </div>
             </div>
@@ -103,20 +108,21 @@
     </section>
     <!-- Second Feature Row -->
     <section class="featured-section featured-2 py-5">
-        <div class="container ">
+        <div class="container">
             <!-- Section Heading and Subheading -->
             <div class="text-center">
-                <h2 class="section-heading">Explore Our Features</h2>
-                <p class="section-subheading">Discover the amazing capabilities of our platform.</p>
+                <h2 class="section-heading">How Finfare will benefit my business?</h2>
+                <p class="section-subheading">We live and breathe small business, delivering results by providing best tools industrywide.</p>
             </div>
 
             <!-- Feature Rows -->
             <div class="row">
                 <div class="col-md-6 mb-4">
-                    <small href="#" class="step-link">Step 1</small>
+                    <small href="#" class="step-link">01</small>
                     <div class="feature-details">
-                        <h3>Step 1 Heading</h3>
-                        <p>Set individual card limits for each employee or use templates for company-wide applications. Custom spend limits allow you to take charge, customize, and issue cards that align with your business financial goals, all at your fingertips.</p>
+                        <h3>Free to use. Save time and money instantly.</h3>
+                        <p>Experience ultimate convenience with our free tool. 
+                            Instantly save time and money, making tasks easier than ever. </p>
                     </div>
                 </div>
                 <div class="col-md-6 mb-4">
@@ -125,10 +131,10 @@
             </div>
             <div class="row">
                 <div class="col-md-6 mb-4">
-                    <small href="#" class="step-link">Step 1</small>
+                    <small href="#" class="step-link">02</small>
                     <div class="feature-details">
-                        <h3>Step 1 Heading</h3>
-                        <p>Set individual card limits for each employee or use templates for company-wide applications. Custom spend limits allow you to take charge, customize, and issue cards that align with your business financial goals, all at your fingertips.</p>
+                        <h3>Secure By Design/h3>
+                        <p>Protected straight out of the box. Experience peace of mind, right from the start, for you, your employees and your business.</p>
                     </div>
                 </div>
                 <div class="col-md-6 mb-4">
@@ -137,10 +143,24 @@
             </div>
             <div class="row">
                 <div class="col-md-6 mb-4">
-                    <small href="#" class="step-link">Step 1</small>
+                    <small href="#" class="step-link">03</small>
                     <div class="feature-details">
-                        <h3>Step 1 Heading</h3>
-                        <p>Set individual card limits for each employee or use templates for company-wide applications. Custom spend limits allow you to take charge, customize, and issue cards that align with your business financial goals, all at your fingertips.</p>
+                        <h3>Quick to onboard, easy to learn.</h3>
+                        <p>Effortless onboarding, rapid learning curve. Seamlessly 
+                            integrate and grasp with ease</p>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="feature-container" style="background-image: url('./assets/images/dashboard-img.jpg');"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <small href="#" class="step-link">04</small>
+                    <div class="feature-details">
+                        <h3>Simplify accounting by syncing with Quickbooks</h3>
+                        <p>Simplify accounting tasks through seamless QuickBooks 
+                            synchronization. Streamline financial management effortlessly</p>
                     </div>
                 </div>
                 <div class="col-md-6 mb-4">
@@ -210,10 +230,6 @@
               </div>
           
               <div class="col">
-          
-              </div>
-          
-              <div class="col">
                 <h5>Company</h5>
                 <ul class="nav flex-column">
                   <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Security</a></li>
@@ -243,5 +259,6 @@
             </footer>
           </div>
     </footer>
+    <script src="./js/bootstrap.min.js" ></script>
 </body>
 </html>
